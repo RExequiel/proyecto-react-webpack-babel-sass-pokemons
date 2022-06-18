@@ -1,0 +1,24 @@
+.container{
+    display: inline-block;
+    margin: .8rem;
+    padding: 1rem;
+    background-color: var(--color-fuente);
+
+    .container__img{
+        width: 15rem;
+    }
+    
+    .container__name{
+        font-size: 1.3rem;
+        font-weight: 700;
+        color: var(--color-fuente);
+        border: 3px solid var(--color-loading);
+        padding: .3rem 0;
+
+    }
+}
+
+.container:hover{
+    background-color: var(--color-loading);
+    cursor: pointer;
+}

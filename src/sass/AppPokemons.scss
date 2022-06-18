@@ -1,0 +1,30 @@
+:root{
+    --color-fuente: #333;
+    --color-loading: #48e;
+
+    --color-fondo: #deecde;
+
+    --fuente: cursive, sans-serif;
+}
+
+*{
+    margin: 0;
+    padding: 0 2%;
+    box-sizing: border-box;
+    background-color:var(--color-fondo);
+    text-align: center;
+    font-family: var(--fuente);
+
+    .title{
+        margin: 3rem;
+        padding:  0 1.5rem;
+        font-weight: 700;
+        color: var(--color-fuente);
+    }
+    
+    .loading{
+        margin: 2rem;
+        color: var(--color-loading);
+    }
+
+}
