@@ -4,7 +4,7 @@ import Pokemon from "../components/Pokemon";
 import "../sass/AppPokemons.scss";
 
 const AppPokemons = () => {
-  let url = "https://pokeapi.co/api/v2/pokemon/";
+  let url = "https://pokeapi.co/api/v2/pokemon/?limit=784";
   //console.log(useFetch());
 
   let { data, isPending, error } = useFetch(url);
