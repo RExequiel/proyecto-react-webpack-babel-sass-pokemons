@@ -1,16 +1,15 @@
-"Proyecto creado SIN el comando npx create-react-app"
-
+## Proyecto creado SIN el comando npx create-react-app 🧑‍🔧
 Creado con React.js - Webpack - Babel - Sass
 
-COMANDOS:
+## Comandos 🧑‍💻
 
-"Comando para instalar dependencias"
+### Instalar dependencias
 npm install
 
-"Comando para visualizar la app (desarrollo)"
+### Visualizar la app (desarrollo)"
 npm run dev
 
-"Comando para los estaticos de la app (producción)"
+### Estaticos de la app (producción)"
 npm run build
 
 
